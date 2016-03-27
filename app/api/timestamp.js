@@ -1,4 +1,4 @@
-use 'strict';
+'use strict';
 var moment = require('moment');
 module.exports = function(app){
 	app.get('/:query', function(req, res){
